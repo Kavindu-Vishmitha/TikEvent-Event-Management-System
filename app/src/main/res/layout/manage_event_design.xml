@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/manage_event_checkbox"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="2dp"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:visibility="gone"
+        app:buttonTint="?android:attr/colorPrimary"
+        app:checkedIconTint="@android:color/white"
+        app:useMaterialThemeColors="false" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/manage_event_details_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_board"
+        android:elevation="4dp"
+        android:padding="12dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/manage_event_image"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/game"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/RoundedCornersImage" /> <TextView
+        android:id="@+id/manage_event_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Event Name"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/manage_event_image"
+        app:layout_constraintTop_toTopOf="@+id/manage_event_image" />
+
+        <ImageView
+            android:id="@+id/icon_location"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/distance_24px"
+            app:layout_constraintStart_toStartOf="@+id/manage_event_name"
+            app:layout_constraintTop_toBottomOf="@+id/manage_event_name"
+            app:tint="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/manage_event_place"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="Location Name"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/icon_location"
+            app:layout_constraintTop_toTopOf="@+id/icon_location" />
+
+        <ImageView
+            android:id="@+id/icon_price"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/paid_24px"
+            app:layout_constraintStart_toStartOf="@+id/manage_event_name"
+            app:layout_constraintTop_toBottomOf="@+id/manage_event_place"
+            app:tint="?attr/colorPrimary" />
+
+        <TextView
+            android:id="@+id/manage_event_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="Rs. 2500.00"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_price"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/icon_price"
+            app:layout_constraintTop_toTopOf="@+id/icon_price" />
+
+        <ImageView
+            android:id="@+id/icon_date"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/calendar_month_24px"
+            app:layout_constraintStart_toStartOf="@+id/manage_event_name"
+            app:layout_constraintTop_toBottomOf="@+id/manage_event_price"
+            app:tint="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/manage_event_date_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="2024-05-20 | 10:00 AM"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/icon_date"
+            app:layout_constraintTop_toTopOf="@+id/icon_date" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_edit_event"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="40dp"
+            android:text="Edit"
+            android:textSize="13sp"
+            app:cornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/manage_event_name"
+            app:layout_constraintTop_toBottomOf="@+id/manage_event_date_time" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

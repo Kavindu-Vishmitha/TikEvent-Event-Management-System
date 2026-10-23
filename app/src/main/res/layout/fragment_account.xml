@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragment.AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_board"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/tv_account_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kavindu's Account"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/btn_new_account"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/person_add_24px"
+                app:tint="?android:attr/colorPrimary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="New Account"
+                android:textColor="?android:attr/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:strokeColor="?android:attr/colorPrimary"
+            app:strokeWidth="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <FrameLayout
+                    android:id="@+id/profileImageContainer"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="5dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/signup_profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/user"
+                        app:shapeAppearanceOverlay="@style/CircleImage"
+                        app:strokeColor="?android:attr/colorPrimary"
+                        app:strokeWidth="3dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.8"
+                    android:text="Tap to Change Photo"
+                    android:textColor="?android:attr/colorPrimary"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    app:errorEnabled="false"
+                    app:errorIconDrawable="@drawable/error_24px"
+                    app:errorTextAppearance="@style/ErrorTextAppearance"
+                    app:errorTextColor="@color/md_theme_error"
+                    app:hintEnabled="false"
+                    app:startIconDrawable="@drawable/person_24px">
+
+                    <EditText
+                        android:id="@+id/signup_input_fullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/custom_input_field"
+                        android:hint="Full Name"
+                        android:paddingStart="48dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:errorEnabled="false"
+                    app:errorIconDrawable="@drawable/error_24px"
+                    app:errorTextAppearance="@style/ErrorTextAppearance"
+                    app:errorTextColor="@color/md_theme_error"
+                    app:hintEnabled="false"
+                    app:startIconDrawable="@drawable/badge_24">
+
+                    <EditText
+                        android:id="@+id/signup_input_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/custom_input_field"
+                        android:hint="User Name"
+                        android:paddingStart="48dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:errorEnabled="false"
+                    app:errorIconDrawable="@drawable/error_24px"
+                    app:errorTextAppearance="@style/ErrorTextAppearance"
+                    app:errorTextColor="@color/md_theme_error"
+                    app:hintEnabled="false"
+                    app:startIconDrawable="@drawable/id_card_24px">
+
+                    <EditText
+                        android:id="@+id/signup_input_nic"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/custom_input_field"
+                        android:hint="NIC"
+                        android:paddingStart="48dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:errorEnabled="false"
+                    app:errorIconDrawable="@drawable/error_24px"
+                    app:errorTextAppearance="@style/ErrorTextAppearance"
+                    app:errorTextColor="@color/md_theme_error"
+                    app:hintEnabled="false"
+                    app:startIconDrawable="@drawable/call_24px">
+
+                    <EditText
+                        android:id="@+id/signup_input_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/custom_input_field"
+                        android:hint="Mobile"
+                        android:inputType="phone"
+                        android:paddingStart="48dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:errorEnabled="false"
+                    app:errorIconDrawable="@drawable/error_24px"
+                    app:errorTextAppearance="@style/ErrorTextAppearance"
+                    app:errorTextColor="@color/md_theme_error"
+                    app:hintEnabled="false"
+                    app:startIconDrawable="@drawable/home_24px">
+
+                    <EditText
+                        android:id="@+id/signup_input_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/custom_input_field"
+                        android:hint="Address"
+                        android:paddingStart="48dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:alpha="0.7"
+                    app:hintEnabled="false"
+                    app:startIconDrawable="@drawable/email_24">
+
+                    <EditText
+                        android:id="@+id/signup_input_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/custom_input_field"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:hint="Email"
+                        android:inputType="none"
+                        android:paddingStart="48dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_save_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Save Profile"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

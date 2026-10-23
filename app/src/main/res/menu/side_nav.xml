@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/side_nav_group_main" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/side_nav_home"
+            android:icon="@drawable/home_24px"
+            android:title="Home"
+            android:checkable="true"
+            android:checked="true" />
+
+        <item
+            android:id="@+id/side_nav_account"
+            android:icon="@drawable/account_circle_24px"
+            android:title="Account"
+            android:checkable="true" />
+
+        <item
+            android:id="@+id/side_nav_tickets"
+            android:icon="@drawable/ticket_24px"
+            android:title="My Ticket"
+            android:checkable="true" />
+
+        <item
+            android:id="@+id/side_nav_favorite"
+            android:icon="@drawable/favorite_24px"
+            android:title="Favorite"
+            android:checkable="true" />
+
+    </group>
+
+    <group android:id="@+id/side_nav_group_auth">
+
+        <item
+            android:id="@+id/side_nav_login"
+            android:icon="@drawable/login_24px"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/side_nav_logout"
+            android:icon="@drawable/logout_24px"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

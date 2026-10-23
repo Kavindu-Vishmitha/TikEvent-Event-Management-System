@@ -1,0 +1,51 @@
+[versions]
+agp = "8.13.2"
+core = "3.5.4"
+firebaseBom = "34.11.0"
+firebaseStorage = "22.0.1"
+glide = "5.0.5"
+gson = "2.14.0"
+itext7Core = "9.6.0"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+appcompat = "1.7.1"
+material = "1.13.0"
+activity = "1.13.0"
+constraintlayout = "2.2.1"
+mpandroidchart = "v3.1.0"
+payhereAndroidSdk = "v3.0.18"
+playServicesLocation = "21.3.0"
+playServicesMaps = "20.0.0"
+playServicesMapsVersion = "20.0.0"
+zxingAndroidEmbedded = "4.3.0"
+
+[libraries]
+
+core = { module = "com.google.zxing:core", version.ref = "core" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+google-firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+itext7-core = { module = "com.itextpdf:itext7-core", version.ref = "itext7Core" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
+payhere-android-sdk = { module = "com.github.PayHereDevs:payhere-android-sdk", version.ref = "payhereAndroidSdk" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+play-services-maps-v1820 = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMapsVersion" }
+zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675566905139",
+    "project_id": "tikevent-99b6b",
+    "storage_bucket": "tikevent-99b6b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675566905139:android:771a2a1807edcc01460046",
+        "android_client_info": {
+          "package_name": "lk.sbg.tikevent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUZ7BIXj8I9_Wl53jIou6JbD2afK8453A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
