@@ -93,9 +93,9 @@ A **decentralized mobile application** designed to bridge the gap between event 
 |:---:|:---:|:---:|
 | ![Sales & Revenue Reports](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/49c2855cff4f2fa2095419d6fe69963575483443/Screenshot/Report%20View%20Fragment.png) | ![Report](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/49c2855cff4f2fa2095419d6fe69963575483443/Screenshot/Report.png) | ![Location Searching](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/49c2855cff4f2fa2095419d6fe69963575483443/Screenshot/Location%20Search%20Fragment.png) |
 
-| **Side Navigation Drawer** | **PayHere Gateway View** |
-|:---:|:---:|
-| ![Side Drawer](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/SideDrawer.jpg?raw=true) | ![PayHere Gateway](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/PayHereGateway.jpg?raw=true) | ![Custom Dialog](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/CustomDialog.jpg?raw=true) |
+| **All Event Location** | **Payment** | **Dialog Message** |
+|:---:|:---:|:---:|
+| ![All Event Location](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/1fc385695b8aa83c85136ca0246c9283c3848f83/Screenshot/Event%20Location%20Fragment.png) | ![Payment](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/1fc385695b8aa83c85136ca0246c9283c3848f83/Screenshot/Payment.png) | ![Dialog Message](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/1fc385695b8aa83c85136ca0246c9283c3848f83/Screenshot/Dialog%20Message.png) |
 
 </div>
 
