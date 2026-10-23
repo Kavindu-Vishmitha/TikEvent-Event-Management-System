@@ -89,9 +89,9 @@ A **decentralized mobile application** designed to bridge the gap between event 
 |:---:|:---:|:---:|
 | ![Ticket Management](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/614328bede07af45f05627948647da292cc16f44/Screenshot/Ticket%20Management%20Fragment.png) | ![Attendance List](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/614328bede07af45f05627948647da292cc16f44/Screenshot/Mark%20Attendance%20Fragment.png) | ![Gate QR Scanner](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/614328bede07af45f05627948647da292cc16f44/Screenshot/QR%20Scan%20Fragment.png) |
 
-| **Sales & Revenue Reports** | **PDF Export View** | **Custom Dialog / Alert** |
+| **Sales & Revenue Reports** | **Report** | **Location Searching** |
 |:---:|:---:|:---:|
-| ![Sales Reports](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/Reports.jpg?raw=true) | ![PDF Export View](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/PDFExport.jpg?raw=true) | ![Custom Dialog](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/CustomDialog.jpg?raw=true) |
+| ![Sales & Revenue Reports](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/49c2855cff4f2fa2095419d6fe69963575483443/Screenshot/Report%20View%20Fragment.png) | ![Report](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/49c2855cff4f2fa2095419d6fe69963575483443/Screenshot/Report.png) | ![Location Searching](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/49c2855cff4f2fa2095419d6fe69963575483443/Screenshot/Location%20Search%20Fragment.png) |
 
 | **Side Navigation Drawer** | **PayHere Gateway View** |
 |:---:|:---:|
