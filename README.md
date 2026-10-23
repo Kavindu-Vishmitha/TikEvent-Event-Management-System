@@ -65,9 +65,9 @@ A **decentralized mobile application** designed to bridge the gap between event 
 |:---:|:---:|:---:|
 | ![Splash Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/ac41390cbff68cabac917721b42c84054ce5f6ca/Screenshot/Splash%20Screen.png) | ![Sign In Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/625ed8b3b82cb054c20986cf14fe44c0b1774ea3/Screenshot/SignIn%20Fragment.png) | ![Sign Up Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/625ed8b3b82cb054c20986cf14fe44c0b1774ea3/Screenshot/Registration%20Fragment.png) |
 
-| **Buyer Home** | **Categories** | **Event Details** |
+| **Forgot Password** | **Buyer Home** | **Categories** |
 |:---:|:---:|:---:|
-| ![Buyer Home](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/Home.jpg?raw=true) | ![Categories](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/Categories.jpg?raw=true) | ![Event Details](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/EventDetails.jpg?raw=true) |
+| ![Forgot Password](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/6f0ceea839d39009d093b356fb1f749b1b223090/Screenshot/Forgot%20Password%20Fragment.png) | ![Buyer Home](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/6f0ceea839d39009d093b356fb1f749b1b223090/Screenshot/Home%20Fragment.png) | ![Categories](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/6f0ceea839d39009d093b356fb1f749b1b223090/Screenshot/Categories%20Fragment.png) |
 
 | **Event Map View** | **My Tickets** | **Ticket QR View** |
 |:---:|:---:|:---:|
