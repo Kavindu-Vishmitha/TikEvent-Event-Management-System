@@ -77,9 +77,9 @@ A **decentralized mobile application** designed to bridge the gap between event 
 |:---:|:---:|:---:|
 | ![Ticket](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/f2ac7837f53193c702b00ef3baf431e16628dce2/Screenshot/Ticket.jpeg) | ![Favorites](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/93abf9c54de830fabfa3dcabe711784b63c06414/Screenshot/Favorite%20Fragment.png) | ![Account](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/93abf9c54de830fabfa3dcabe711784b63c06414/Screenshot/Account%20Fragment.png) |
 
-| **Admin Dashboard** | **Create Event** | **Manage Events** |
+| **Side Navigation** | **Dark Mode** | **Notification** |
 |:---:|:---:|:---:|
-| ![Admin Dashboard](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/AdminDashboard.jpg?raw=true) | ![Create Event](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/CreateEvent.jpg?raw=true) | ![Manage Events](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/ManageEvents.jpg?raw=true) |
+| ![Side Navigation](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/5ab20b34db91284adbc4f5fcaab7a8226c7484fa/Screenshot/Side%20Navigation%20Bar.png) | ![Dark Mode](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/5ab20b34db91284adbc4f5fcaab7a8226c7484fa/Screenshot/Dark%20Mode.png) | ![Notification](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/5ab20b34db91284adbc4f5fcaab7a8226c7484fa/Screenshot/Notification%20Fragment.png) |
 
 | **Edit Event** | **Event Location Picker** | **All Event Locations Map** |
 |:---:|:---:|:---:|
