@@ -87,7 +87,7 @@ A **decentralized mobile application** designed to bridge the gap between event 
 
 | **Ticket Management** | **Event Attendance List** | **Gate QR Scanner** |
 |:---:|:---:|:---:|
-| ![Ticket Management](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/TicketManagement.jpg?raw=true) | ![Attendance List](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/AttendanceList.jpg?raw=true) | ![Gate QR Scanner](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/QRScanner.jpg?raw=true) |
+| ![Ticket Management](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/614328bede07af45f05627948647da292cc16f44/Screenshot/Ticket%20Management%20Fragment.png) | ![Attendance List](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/614328bede07af45f05627948647da292cc16f44/Screenshot/Mark%20Attendance%20Fragment.png) | ![Gate QR Scanner](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/614328bede07af45f05627948647da292cc16f44/Screenshot/QR%20Scan%20Fragment.png) |
 
 | **Sales & Revenue Reports** | **PDF Export View** | **Custom Dialog / Alert** |
 |:---:|:---:|:---:|
