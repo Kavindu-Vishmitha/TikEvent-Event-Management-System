@@ -63,7 +63,7 @@ A **decentralized mobile application** designed to bridge the gap between event 
 
 | **Splash Screen** | **Sign In** | **Sign Up** |
 |:---:|:---:|:---:|
-| ![Splash Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/Splash.jpg?raw=true) | ![Sign In Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/SignIn.jpg?raw=true) | ![Sign Up Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/SignUp.jpg?raw=true) |
+| ![Splash Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/ac41390cbff68cabac917721b42c84054ce5f6ca/Screenshot/Splash%20Screen.png) | ![Sign In Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/SignIn.jpg?raw=true) | ![Sign Up Screen](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/SignUp.jpg?raw=true) |
 
 | **Buyer Home** | **Categories** | **Event Details** |
 |:---:|:---:|:---:|
