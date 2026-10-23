@@ -73,9 +73,9 @@ A **decentralized mobile application** designed to bridge the gap between event 
 |:---:|:---:|:---:|
 | ![Single View](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/0f1847078e4f596ff74118cff4785ee4441a5aae/Screenshot/Single%20View%20Fragment.png) | ![My Ticket](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/0f1847078e4f596ff74118cff4785ee4441a5aae/Screenshot/My%20Ticket%20Fragment.png) | ![Ticket View](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/0f1847078e4f596ff74118cff4785ee4441a5aae/Screenshot/Ticket%20View%20Fragment.png) |
 
-| **Favorites** | **Buyer Profile** | **Buyer Notifications** |
+| **Ticket** | **Favorites** | **Account** |
 |:---:|:---:|:---:|
-| ![Favorites](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/Favorites.jpg?raw=true) | ![Buyer Profile](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/Account.jpg?raw=true) | ![Buyer Notifications](https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/Notifications.jpg?raw=true) |
+| ![Ticket]([https://github.com/Kavindu-Vishmitha/TikEvent-Android/blob/main/screenshot/Favorites.jpg?raw=true](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/93abf9c54de830fabfa3dcabe711784b63c06414/Screenshot/Ticket.jpeg)) | ![Favorites](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/93abf9c54de830fabfa3dcabe711784b63c06414/Screenshot/Favorite%20Fragment.png) | ![Account](https://github.com/Kavindu-Vishmitha/TikEvent-Event-Management-System/blob/93abf9c54de830fabfa3dcabe711784b63c06414/Screenshot/Account%20Fragment.png) |
 
 | **Admin Dashboard** | **Create Event** | **Manage Events** |
 |:---:|:---:|:---:|
